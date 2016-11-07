@@ -79,13 +79,13 @@ public class Principal extends javax.swing.JFrame {
             }
         });
 
-		pikachuPic.setIcon(new ImageIcon(getClass().getResource("/Imagenes/rsz_anime_render__pikachu_3_by_nyanhime168-da1v0ys.png"))); // NOI18N
+		pikachuPic.setIcon(new ImageIcon(getClass().getResource("Imagenes/pikachu.png"))); // NOI18N
         pikachuPic.setToolTipText("");
 
-        jigglypuffPic.setIcon(new ImageIcon(getClass().getResource("/Imagenes/rsz_tumblr_static_btkquz1l71cgo4488o8gkosg0.png"))); // NOI18N
+        jigglypuffPic.setIcon(new ImageIcon(getClass().getResource("Imagenes/jigglypuff.png"))); // NOI18N
         jigglypuffPic.setToolTipText("");
 
-        jLabel3.setIcon(new ImageIcon(getClass().getResource("/Imagenes/rsz_vs.png"))); // NOI18N
+        jLabel3.setIcon(new ImageIcon(getClass().getResource("Imagenes/versus.png"))); // NOI18N
         jLabel3.setToolTipText("");
 
         vidaPikachu.setForeground(new Color(0, 153, 51));
@@ -97,9 +97,9 @@ public class Principal extends javax.swing.JFrame {
         vidaJigglypuff.setValue(100);
         vidaJigglypuff.setBorderPainted(false);
 
-        jigglypuffWin.setIcon(new ImageIcon(getClass().getResource("/Imagenes/trophy-icon.png"))); // NOI18N
+        jigglypuffWin.setIcon(new ImageIcon(getClass().getResource("Imagenes/trophy-icon.png"))); // NOI18N
 
-        pikachuWin.setIcon(new ImageIcon(getClass().getResource("/Imagenes/trophy-icon.png"))); // NOI18N
+        pikachuWin.setIcon(new ImageIcon(getClass().getResource("Imagenes/trophy-icon.png"))); // NOI18N
 
         jLabel4.setFont(new Font("Tahoma", 1, 12)); // NOI18N
         jLabel4.setText("Pikachu");

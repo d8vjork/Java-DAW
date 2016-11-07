@@ -4,7 +4,7 @@ public class Principal {
 	
 	public static void main( String[] args ) {
 
-		int a = 0, num = Integer.parseInt( JOptionPane.showInputDialog("Ingrese un nï¿½mero:") );
+		int a = 0, num = Integer.parseInt( JOptionPane.showInputDialog( "Ingrese un número:" ) );
 
 		for ( int i = 1; i < (num + 1); i++ ) {
 
