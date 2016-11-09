@@ -4,7 +4,7 @@ public class Principal {
     
     public static void main( String[] args ) {
 		
-		int n = 0, m = 0, c = 0;
+		int n, m, c;
 
 		try {
 			n = Integer.parseInt( JOptionPane.showInputDialog( "Introduzca número:" ) );
